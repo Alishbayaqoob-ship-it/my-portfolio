@@ -1,68 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- ... head content is same ... -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+<img src="5.jpg" alt="" />
+   <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 </head>
 
-<body>
-  <!-- ... header, home content are same ... -->
+<body>3
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
 
-    <div class="home-img">
-      <!-- Change this from "images/5.jpg" -->
-      <img src="5.jpg" alt="Alishba Yaqoob" />
-    </div>
-  </section>
+      <i class="bx bx-menu" id="menu-icon"></i>
+ 
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio/Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <!-- about -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <!-- Change this from "images/5.jpg" -->
-      <img src="5.jpg" alt="Alishba Yaqoob About Me" />
-    </div>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Alishba Yaqoob</h1>
+        <h2>And I'm a Web Developer and Graphic Designer<span class="multiple-text"></span></h2>
+        <p>
+           Web Developer & Graphic Designer  Welcome to my creative portfolio! Here, code meets creativity. I am a versatile professional who loves building smooth, responsive web solutions while crafting powerful visual identities. Whether it is writing clean components or designing high-impact digital graphics, I am always eager to take on new challenges and collaborate on innovative projects. Thank you for visiting, and I look forward to creating something amazing together! .
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/profile.php?id=61574456946476"><i class="bx bxl-facebook"></i></a>
+         
+          <a href="https://www.instagram.com/alishba_developer?igsh=MWMxemc5bnBic3R3Zw=="><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/posts/alishba-developer-207349358_coding-html-and-css-activity-7309603225593114624-E_AR?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFkKJecBhcSAUCgLIRQaaTDLS2A-HaEOlEc&utm_campaign=copy_link"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <!-- Download CV Button -->
+        <a href="./CV/my cv.pdf"  target="_blank" class="btn">Download CV</a>
 
-    <!-- ... about content is same ... -->
-  </section>
-
-  <!-- ... services section is same ... -->
-
-  <!-- Portfolio Section -->
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Projects</span></h2>
-
-    <div class="portfolio-container">
-      <div class="portfolio-box">
-        <!-- Change from "images/port1.jpg" -->
-        <img src="port1.jpg" alt="MGV ARTWORKS" />
-        <!-- ... layer is same ... -->
       </div>
 
-      <div class="portfolio-box">
-        <!-- Change from "images/port2.jpg" -->
-        <img src="port2.jpg" alt="Portfolio" />
-        <!-- ... layer is same ... -->
+      <div class="home-img">
+        <img src="images/5.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/5.jpg" alt="" />
       </div>
 
-      <div class="portfolio-box">
-        <!-- Change from "images/port3.jpg" -->
-        <img src="port3.jpg" alt="Artisans Avenue" />
-        <!-- ... layer is same ... -->
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+         Hi, I’m Alishba Yaqoob, a Computer Science graduate who loves bridging the gap between clean code and beautiful design.  As a Graphic Designer, I create powerful visual identities, commercial logos, professional posters, certificates, and high-impact social media posts using Adobe Photoshop, Illustrator, and Canva. Along with this, I work as a Web Developer specializing in building smooth, responsive web applications using Next.js and Tailwind CSS.  My technical and creative dedication was highlighted when my project "Dine Smart" secured 1st Position at the 6th International Student Convention & Expo 2026. I thrive on turning complex ideas into simple, beautiful, and functional digital experiences. I am always eager to take on new creative challenges and collaborate with brands to build something extraordinary
+        </p>
+        <a href="skills .html" class="btn">Skills</a>
       </div>
+    </section>
 
-      <div class="portfolio-box">
-        <!-- Change from "images/port4.jpg" -->
-        <img src="port4.jpg" alt="Pending Project" />
-        <!-- ... layer is same ... -->
+    <!-- services -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+           Frontend Frameworks: Next.js, Tailwind CSS, Bootstrap, HTML, CSS  Programming & Scripting: TypeScript, JavaScript, Python, C++, Object-Oriented Programming (OOP)  Backend & Databases: Node.js, Database Connectivity, SQL/NoSQL Frameworks  Core CS Concepts: Data Structures & Algorithms (DSA), Operating Systems, COAL
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Graphic & Creative DesignCore Skills: Brand Identity & Logo Design, Social Media Creative Posts, Professional Certificate Design  Print & Marketing: Poster Making, Business/Website Card Designing, Resume/CV Making  Design Tools: Adobe Photoshop, Adobe Illustrator, Canva Designing & Freelancing
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-pencil"></i>
+          <h3>Video Editing & Content Creation</h3>
+          <p>
+          "I bring stories and ideas to life through engaging video edits. Whether it’s creating dynamic reels, promotional clips, or social media content, I focus on seamless transitions, clean cuts, and engaging pacing that captures the audience's attention from the very first second."
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
       </div>
+    </section>
 
-      <div class="portfolio-box">
-        <!-- Change from "images/port5.jpg" -->
-        <img src="port5.jpg" alt="Pending Project" />
-        <!-- ... layer is same ... -->
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+    
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/port1.jpg" alt="MGV ARTWORKS" />
+          <div class="portfolio-layer">
+            <h4>MGV ARTWORKS</h4>
+            <p>My own personal artwork website.</p>
+            <a href="https://mgvartworks.netlify.app" target="_blank"><i class="bx bx-link-external"></i></a>
+            <a href="https://github.com/alishbayaqoob12/ALishba-yaqoob-oop-pojects.git" target="_blank" class="github-link"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+    
+        <div class="portfolio-box">
+          <img src="images/port2.jpg" alt="Portfolio" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>A portfolio Website showcasing my work.</p>
+            <a href="https://mgvportfolio.netlify.app" target="_blank"><i class="bx bx-link-external"></i></a>
+            <a href="https://github.com/alishbayaqoob12/ALishba-yaqoob-oop-pojects.git" target="_blank" class="github-link"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+    
+        <div class="portfolio-box">
+          <img src="images/port3.jpg" alt="Artisans Avenue" />
+          <div class="portfolio-layer">
+            <h4>Artisans Avenue</h4>
+            <p>An E-Commerce website to sell the Artworks.</p>
+            <a href="https://link-to-live-project.com" target="_blank"><i class="bx bx-link-external"></i></a>
+            <a href="https://github.com/alishbayaqoob12/ALishba-yaqoob-oop-pojects.git" target="_blank" class="github-link"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+    
+        <div class="portfolio-box">
+          <img src="images/port4.jpg" alt="Pending Project" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>Under Development</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+            <a href="https://github.com/alishbayaqoob12/ALishba-yaqoob-oop-pojects.git"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+    
+        <div class="portfolio-box">
+          <img src="images/port5.jpg" alt="Pending Project" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>Under Development</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+            <a href="https://github.com/alishbayaqoob12/ALishba-yaqoob-oop-pojects.git"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ... contact section and footer are same ... -->
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
+      <form action="alishbayaqoob123@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+          <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        
+      </div>
+    </footer>
+    
 </body>
 </html>
